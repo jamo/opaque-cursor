@@ -5,7 +5,7 @@ exports.decorateConfig = (config) => {
     termCSS: `
       ${config.termCSS || ''}
       .cursor-node {
-        opacity: 0.5;
+        opacity: 0.5 !important;
       }
     `
   })
