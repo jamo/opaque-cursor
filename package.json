@@ -1,0 +1,53 @@
+{
+  "name": "opaque-cursor",
+  "version": "0.0.0",
+  "author": "@jamox",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamox/opaque-cursor.git"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/jamox/opaque-cursor/issues"
+  },
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "hyperterm",
+    "opaque cursor"
+  ],
+  "description": "A Hyperterm theme that makes cursor block opaque",
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-standard": "^5.3.5",
+    "eslint-plugin-promise": "^2.0.0",
+    "eslint-plugin-standard": "^2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "yoda": 0,
+      "semi": [
+        2,
+        "never"
+      ],
+      "no-undef": 0,
+      "no-unused-vars": 2,
+      "no-extra-semi": 2,
+      "semi-spacing": [
+        2,
+        {
+          "before": false,
+          "after": true
+        }
+      ]
+    }
+  }
+}
